@@ -17,6 +17,7 @@ To correctly install the modules please follow the following instructions:
 
 
 In the case you are using the HetSys provided laptops with Linux operating system: follow everything the same until step 3. 
+
 4. Change directory into the folder you just cloned and type "sudo python3 setup.py develop", if this shows that you are missing a module, type "sudo pip install missing module", then run "sudo python3 setup.py develop". 
 5. Carry out step 6
 6. Run the first cell which imports all the modules and for any of the misssing modules run "sudo pip install missing module".
