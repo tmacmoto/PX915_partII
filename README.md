@@ -23,3 +23,6 @@ In the case you are using the HetSys provided laptops with Linux operating syste
 4. Run the first cell which imports all the modules and for any of the misssing modules run "sudo pip install missing module".
 5. Run all of the cells once (the run-time is around 30 seconds), then re-run the cells by changing the length_scale parameter to the appropriate value. It is important that you ran the code on the same observed locations and values (you might need to seed your random number).
 6. Inspect the results.
+
+
+Please note that the IPython.display module is just for the interactive plotting, which is not necessarly to reproduce the results, so can be commented out if you are having trouble installing it.
